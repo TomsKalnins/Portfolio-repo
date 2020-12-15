@@ -1,10 +1,23 @@
-html {
+header {
     background-color:black;
     font-family:"space Mono";
-
-}
-
-h1 {
     color:aqua;
+    border: 1px solid aqua;
+    font-size: 40px;
 }
+
+.container {
+    display: flex;
+    font-size: 35px;    
+}
+
+a {
+    
+    justify-content: right;
+}
+
+
+
+    
+
 
