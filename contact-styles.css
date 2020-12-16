@@ -1,0 +1,51 @@
+* {
+    font-family:"space Mono";
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+    
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+nav {
+    border-bottom: 1px solid aqua;
+    border-top: 1px solid limegreen;
+    margin: 20px; 
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+
+}
+
+h2 {
+    color: aqua;
+}
+
+p{
+    color: aqua;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding-left:50px;
+    margin-left:30px;
+}
+
+figcaption {
+    color: aqua;
+    font-size: 30px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+}
