@@ -77,3 +77,24 @@ margin-left: 50px;
 }
 
 
+@media screen  (max-width 800px)  {
+    * {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; 
+        
+}
+
+.h1 {
+    grid-row-start: 1;
+    grid-row-end:span 2;
+}
+
+nav ul {
+
+    grid-row-start: 3;
+    grid-row-end:span 3;
+}
+
+
+}
